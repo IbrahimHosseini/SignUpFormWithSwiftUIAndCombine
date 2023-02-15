@@ -11,6 +11,8 @@
 		039BFC14299D8B13002DA821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BFC13299D8B13002DA821 /* ContentView.swift */; };
 		039BFC16299D8B14002DA821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039BFC15299D8B14002DA821 /* Assets.xcassets */; };
 		039BFC19299D8B14002DA821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039BFC18299D8B14002DA821 /* Preview Assets.xcassets */; };
+		039BFC20299D8BEA002DA821 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BFC1F299D8BEA002DA821 /* SignupView.swift */; };
+		039BFC23299D9044002DA821 /* SignUpFromViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039BFC22299D9044002DA821 /* SignUpFromViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		039BFC13299D8B13002DA821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		039BFC15299D8B14002DA821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		039BFC18299D8B14002DA821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		039BFC1F299D8BEA002DA821 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		039BFC22299D9044002DA821 /* SignUpFromViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFromViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				039BFC13299D8B13002DA821 /* ContentView.swift */,
 				039BFC15299D8B14002DA821 /* Assets.xcassets */,
 				039BFC17299D8B14002DA821 /* Preview Content */,
+				039BFC21299D9034002DA821 /* SignUp */,
 			);
 			path = SignupFormWithSwiftUIAndCombine;
 			sourceTree = "<group>";
@@ -65,6 +70,15 @@
 				039BFC18299D8B14002DA821 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		039BFC21299D9034002DA821 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				039BFC1F299D8BEA002DA821 /* SignupView.swift */,
+				039BFC22299D9044002DA821 /* SignUpFromViewModel.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039BFC20299D8BEA002DA821 /* SignupView.swift in Sources */,
 				039BFC14299D8B13002DA821 /* ContentView.swift in Sources */,
+				039BFC23299D9044002DA821 /* SignUpFromViewModel.swift in Sources */,
 				039BFC12299D8B13002DA821 /* SignupFormWithSwiftUIAndCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
